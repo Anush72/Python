@@ -1,0 +1,19 @@
+Making the turtle race using tkinter
+Steps take to make this are
+1. importing the Turtle and Screen Class from turtle library, random module
+2. Assiging the variable is_race_on with False boolean
+3. Making the object of Screen class
+4. Setup the screen with width and height 500 and 400 respectively
+5. Making the input box using textinput method of Screen class to ask user which color will win?
+6. Making the list of colors and y coordinates position of turtle
+7. Assiging the empty class of all_turtle to make turtle
+8. Using for loop to make 6 turtle using different color
+9. In for looop we make turtle using Turtle class
+10. Turtle method we used are shape, color, penup, and goto
+11. shape - to make shape according to desire(turtle), color(taking from list), penup(no writing in screen)
+and goto(assign the turtle in fixed X coordinate postion but different y_coordinate position)
+12. Storing all turtle in list
+13. If statement whether or not the user write and after that we assign the True boolean to is_race_on
+14. while loop after is_race_on and for loop to get all turtle and assiging the random step using randit function of random
+  and forward method of turtle by randomstep.
+15. If anyone turtle in race touch the X_coordinate graeter than 230 then rcae stop and give result you win or loss.

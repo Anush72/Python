@@ -1,4 +1,4 @@
-Making the turtle race using tkinter
+Making the turtle race using turtle
 Steps take to make this are
 1. importing the Turtle and Screen Class from turtle library, random module
 2. Assiging the variable is_race_on with False boolean

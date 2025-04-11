@@ -1,0 +1,10 @@
+In this project, I used selenium module to login Melbourne Institue of Technology (student AMS)
+to look out all the timetables,Assignment Details , Attendance and Course Units
+Step I taken 
+1. importing libraries
+2. Making the chrome reamin in screen
+3. Making the chrome driver from class Chrome import from webdriver
+4.login the AMS using your id and password
+5. Using find element to find the Username and password input box and sending the elements
+6. Asking user to which things you want to see (Time Table, Assignment Details, Attendance or Course Units)
+7. If loop to check which option has been selected from given list of options.

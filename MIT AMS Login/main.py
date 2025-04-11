@@ -14,7 +14,6 @@ driver.get('https://ams.mit.edu.au/')
 
 
 # login to ams
-# hiding the input of user in terminal
 username = input('Write Username of AMS:\t')
 password = input('Write Password of AMS:\t')
 user_element = driver.find_element(By.ID,value="Username")

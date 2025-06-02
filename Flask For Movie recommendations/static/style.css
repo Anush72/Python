@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #2A4759;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Floating film reels */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.film-reel {
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  background: url('/static/filmreel.png') no-repeat center;
+  background-size: contain;
+  opacity: 0.1;
+  animation: float 5s ease-in-out infinite;
+}
+
+.film-reel:nth-child(2) {
+  top: 50%;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.film-reel:nth-child(3) {
+  top: 80%;
+  left: 40%;
+  animation-delay: 4s;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #e50914;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff0f28;
+}
+
+.recommendations {
+  margin-top: 30px;
+  font-size: 18px;
+}

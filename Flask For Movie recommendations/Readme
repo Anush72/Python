@@ -1,0 +1,15 @@
+In this project, I used simple Apriori Algorithm to recommend movie based on Previous Watch.
+I used Apriori algorithm that was made from Movie Apriori From Data_Science Repo and download
+that model and using for recommendation
+Flask is used for making website and model deployment.
+Pickle For loading the model we saved
+For loading the website, we have to create html file in templates and css file in static directory
+html files and css files is used for website created using ChatGPT, its simple
+1. Importing the Libraries Flask and Pickle.
+2. Using Function render_template and request from Flask
+3. Importing the function created to recommend movie.
+4. Intializing the Flask 
+5. Loading the model
+6. Making the web path and rendering the html files
+7. Making another web path for getting recommendation of movie
+8. Getting URL and turn the debug mode so we can debug the problems if we got problems using flask

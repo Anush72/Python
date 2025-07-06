@@ -1,0 +1,13 @@
+In this project, I make webiste to predict the diabetes after entering the inputs from users and ada booster predict it with probabilities.
+Things I useed are
+a. Flask - To render html files, send json format data, running the website
+b. pickle - To load the model that I saved 
+c. numpy - to create array of what use puts
+
+ Steps I take for this project
+1. Importing the python libraries (Flask,pickle and numpy)
+2. Loading the model from pickle 
+3. Making the function to encode the data
+4. Making the route to get html file
+5. Post the json format data for giving results
+6. Getting the flask server to get website
